@@ -1,7 +1,4 @@
-# Team-Challenge---Team-GPTlines
-Team Challange - Sprint 3 The Bridge Data Science, Pipelines, Team GPTlines
-
-# Team Challenge: Pipelines en Machine Learning
+# Team Challenge: Pipelines en Machine Learning --- Team-GPTlines ����
 
 ## Descripción del Proyecto
 Este repositorio contiene el desarrollo del Team Challenge orientado a la creación de pipelines utilizando Scikit-learn. El objetivo principal es construir un flujo de trabajo que incluya:
@@ -31,22 +28,30 @@ El dataset (`Application_Data.csv`) contiene información sobre solicitantes, co
 
 src 
     └── data 
-        ├── Application_Data.csv 
-├── Team-GPTlines_Pipelines_v0.ipynb 
-├── Team-GPTlines_Pipelines_v1.ipynb 
-└── Team-GPTlines_Pipelines_v2.ipynb # Versión final del notebook 
+        ├── Application_Data.csv \
+      ├── Team-GPTlines_Pipelines_v0.ipynb \
+      ├── Team-GPTlines_Pipelines_v1.ipynb \
+      └── Team-GPTlines_Pipelines_v2.ipynb \
+      └── Team-GPTlines_Pipelines_v3.ipynb # Versión final del notebook \
+      └── Team-GPTlines__Pipelines_I.ipynb.ipynb \
+      └── Team-GPTlines__Pipelines_II.ipynb.ipynb\ 
+
 bootcampviztools.py 
+
 .gitignore 
+
 LICENSE README.md
 
 - **Application_Data.csv**: Dataset principal con toda la información de los solicitantes.  
-- **Team-GPTlines_Pipelines_v0.ipynb** / **v1.ipynb**: Notebooks de pruebas o versiones previas.  
-- **Team-GPTlines_Pipelines_v2.ipynb**: Versión final con el flujo de trabajo definitivo:
+- **Team-GPTlines_Pipelines_v0.ipynb** / **v1.ipynb** / **v2.ipynb**: Notebooks de pruebas o versiones previas.  
+- **Team-GPTlines_Pipelines_v3.ipynb**: Versión final con el flujo de trabajo definitivo:
   - Carga y exploración de datos (EDA)  
   - Preprocesamiento (transformaciones, escalado, codificación)  
   - División en train/test  
   - Aplicación de SMOTE  
   - Entrenamiento y evaluación de modelos (con y sin SMOTE)  
+- **Team-GPTlines__Pipelines_I.ipynb.ipynb**
+- **Team-GPTlines__Pipelines_II.ipynb.ipynb**
 - **bootcampviztools.py**: Funciones de visualización auxiliares.  
 
 ## Dependencias y Entorno
@@ -62,7 +67,7 @@ El proyecto se ha desarrollado utilizando **Python (versión 3.12.7)**. Las prin
 Ejecución del Proyecto
 Exploración y Preprocesamiento:
 
-Abrir el notebook Team-GPTlines_Pipelines_v2.ipynb en la carpeta src/data.
+Abrir el notebook Team-GPTlines_Pipelines_v3.ipynb en la carpeta src/data.
 Ejecutar las celdas en orden para realizar la carga del dataset, análisis exploratorio (EDA), transformaciones (aplicación de log a variables seleccionadas, escalado y codificación de variables categóricas).
 División de Datos y Balanceo:
 
@@ -82,8 +87,13 @@ La eficacia del preprocesamiento y la transformación de las variables.
 La mejora en el desempeño de los modelos tras aplicar SMOTE, en especial en la predicción de la clase minoritaria.
 La comparación entre los distintos modelos (Regresión Logística, Random Forest y XGBoost), destacando el buen desempeño de XGBoost.
 Integrantes del Equipo:
+
 Joaquín Villar Maldonado
+
 Johann Strauss
+
 Marco Fuchs
+
 Rafael Neda
-mMiguel Angel Silva
+
+Miguel Angel Silva
