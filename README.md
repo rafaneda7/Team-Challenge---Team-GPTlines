@@ -59,7 +59,7 @@ README.md
 
 ---
 
-- **Application_Data.csv**: Dataset principal con toda la información de los solicitantes.  
+- **Application_Data.csv**: El dataset, denominado Application_Data.csv, contiene información detallada sobre solicitantes de crédito o productos financieros. Cada registro representa a un individuo y reúne tanto datos demográficos como económicos y de comportamiento crediticio.   
 - **Team-GPTlines_Pipelines_v0.ipynb / v1.ipynb / v2.ipynb**: Notebooks de pruebas o versiones previas.  
 - **Team-GPTlines_Pipelines_v3.ipynb**: Versión final con el flujo de trabajo definitivo:
   - Carga y exploración de datos (EDA).  
