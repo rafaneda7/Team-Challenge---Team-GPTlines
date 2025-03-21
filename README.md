@@ -36,27 +36,28 @@ El dataset principal (`Application_Data.csv`) contiene información detallada so
 ## Estructura del Repositorio
 
 ssrc 
-├── data │ 
-  ├── Application_Data.csv │ 
-  ├── Application_Data_train.csv │ 
-  ├── Application_Data_test.csv │ 
-  ├── Application_Data_train2.csv │ 
-  └── Application_Data_test2.csv 
-├── notebooks │ 
-  ├── Team-GPTlines_Pipelines_v0.ipynb │ 
-  ├── Team-GPTlines_Pipelines_v1.ipynb │
-  ├── Team-GPTlines_Pipelines_v2.ipynb │
-  ├── Team-GPTlines_Pipelines_v3.ipynb │ 
-  └── bootcampviztools.py 
-└── result_notebooks 
-  ├── Team-GPTlines_Pipelines_I.ipynb 
-  ├── Team-GPTlines_Pipelines_II.ipynb 
-  ├── modelo_pipeline.joblib 
-  └── modelo_pipeline.pkl
+  ├── data │ 
+    ├── Application_Data.csv │ 
+    ├── Application_Data_train.csv │ 
+    ├── Application_Data_test.csv │ 
+    ├── Application_Data_train2.csv │ 
+    └── Application_Data_test2.csv 
+  ├── notebooks │ 
+    ├── Team-GPTlines_Pipelines_v0.ipynb │ 
+    ├── Team-GPTlines_Pipelines_v1.ipynb │
+    ├── Team-GPTlines_Pipelines_v2.ipynb │
+    ├── Team-GPTlines_Pipelines_v3.ipynb │ 
+    └── bootcampviztools.py 
+  └── result_notebooks 
+    ├── Team-GPTlines_Pipelines_I.ipynb 
+    ├── Team-GPTlines_Pipelines_II.ipynb 
+    ├── modelo_pipeline.joblib 
+    └── modelo_pipeline.pkl
 .gitignore
 LICENSE 
 README.md
 
+---
 
 - **Application_Data.csv**: Dataset principal con toda la información de los solicitantes.  
 - **Team-GPTlines_Pipelines_v0.ipynb / v1.ipynb / v2.ipynb**: Notebooks de pruebas o versiones previas.  
